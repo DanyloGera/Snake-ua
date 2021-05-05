@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Snake game</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<!--  -->
+	<div class="btn-back-wrapper">
+          <button type="button" class="btn-back">&#8619; Back to the site</button>
+        </div>
+
+
+
+				<!--  -->
+
+				<div class="container">
+        <div class="callout">
+          <div class="callout-header">Operation: "Email Collector" </div>
+            <span class="closebtn1" onclick="this.parentElement.style.display='none';">×</span>
+              <div class="callout-container">
+                  <p>
+                    The game machine was put aside because the mall visitors didn't like the "old" game.
+                     However, at one time it was quite popular. Will you be able to collect lost letters?
+										  You only need 20 letters
+										 and you can make our people happy with them.
+
+                  </p>
+            </div>
+        </div>
+      </div>
+
+			<div class="container " id="form" style="visibility: hidden;">
+			<div class="form-callout">
+				<div class="callout-header">Check the pasword </div>
+					<span class="closebtn1" onclick="window.location.reload();">×</span>
+						<div class="form-callout-container">
+							<div id="wrapper" >
+						<a rel="tooltip" align = "center" class="btn-success\" href="#"></a>
+						<form>
+							<label for="pasword">The best organization needs<br> <b>CAPITAL LETTERS </b></label>
+						<input name="pasword" id="pasword-field"  type="text" required placeholder="Enter the password" />
+						<input onclick="checkPassword()" type="button" class="btn-next" value="Next level &#8620;"/>
+						</form>
+						</div>
+					</div>
+			</div>
+		</div>
+<!--  -->
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Controls!</strong> <p>Використовуйте клавіші стрілки на клавіатурі
+<p>⟵↑↓⟶</p>	.
+</p>
+</div>
+<!--  -->
+				<div class="timer-wrapper">
+            <input class="timer" id="timer" type="text" name="" value="" disabled value="00:00">
+        </div>
+<!--  -->
+	<canvas id="game" width="608" height="608"></canvas>
+
+	<script src="./script.js"></script>
+</body>
+</html>
