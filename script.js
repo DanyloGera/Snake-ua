@@ -206,13 +206,13 @@ let game = setInterval(drawGame, 100);
       if(document.getElementById("pasword-field").value == truePasword1)
       {
         alert('Перкрасно! Ваш рахунок: + ' + 20);
-        window.location.href="https://danylogera.github.io/game-3/";
+        window.location.href="https://danylogera.github.io/game-3ua/";
       }
       else
       if(document.getElementById("pasword-field").value == truePasword2)
       {
         alert('Перкрасно! Ваш рахунок: + ' + 20);
-        window.location.href="https://danylogera.github.io/game-3/";
+        window.location.href="https://danylogera.github.io/game-3ua/";
       }else
       {
         alert("Невірний пароль! Щоб перепройти рівень закрийте оголошення 'перевірку паролю' '×'");
