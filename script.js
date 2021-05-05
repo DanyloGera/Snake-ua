@@ -75,7 +75,7 @@ function direction(event) {
 function eatTail(head, arr) {
   for(let i = 0; i < arr.length; i++) {
     if(head.x == arr[i].x && head.y == arr[i].y)
-      clearInterval(game, alert("Your score: " + score), window.location.reload());
+      clearInterval(game, alert("Ваш рахунок: " + score), window.location.reload());
 
   }
 
@@ -152,7 +152,7 @@ if (i == 14) {
 
   }
   if (score === 20) {
-    clearInterval(game,alert("Your score: " + score),pasword());
+    clearInterval(game,alert("Ваш рахунок: " + score),pasword());
 function pasword() {
   var btn = document.getElementById('form');
   btn.removeAttribute("style");
@@ -165,7 +165,7 @@ function pasword() {
   if(snakeX < box || snakeX > box * 17
     || snakeY < 3 * box || snakeY > box * 17)
 
-    clearInterval(game, alert("Your score: " + score), window.location.reload());
+    clearInterval(game, alert("Ваш рахунок: " + score), window.location.reload());
 
 
 
@@ -205,17 +205,17 @@ let game = setInterval(drawGame, 100);
   {
       if(document.getElementById("pasword-field").value == truePasword1)
       {
-        alert('Correct! Your score: + ' + 20);
+        alert('Перкрасно! Ваш рахунок: + ' + 20);
         window.location.href="https://danylogera.github.io/game-3/";
       }
       else
       if(document.getElementById("pasword-field").value == truePasword2)
       {
-        alert('Correct! Your score: + ' + 20);
+        alert('Перкрасно! Ваш рахунок: + ' + 20);
         window.location.href="https://danylogera.github.io/game-3/";
       }else
       {
-        alert("Uncorrect!If you want to play again close the article '×'");
+        alert("Невірний пароль! Щоб перепройти рівень закрийте оголошення 'перевірку паролю' '×'");
         return false;
 
       }
