@@ -93,35 +93,35 @@ if (i == 0) {
       var pattern = ctx.createPattern(headImg, 'repeat');
       ctx.fillStyle = pattern;
     } else
-if (i == 7) {
+if (i == 6) {
       var pattern1 = ctx.createPattern(sImg, 'repeat');
       ctx.fillStyle = pattern1;
 } else
- if (i == 8) {
+ if (i == 7) {
      var pattern2 = ctx.createPattern(tImg, 'repeat');
      ctx.fillStyle = pattern2;
 } else
-if (i == 9) {
+if (i == 8) {
     var pattern3 = ctx.createPattern(aImg, 'repeat');
     ctx.fillStyle = pattern3;
 } else
-if (i == 10) {
+if (i == 9) {
     var pattern4 = ctx.createPattern(rImg, 'repeat');
     ctx.fillStyle = pattern4;
 } else
-if (i == 11) {
+if (i == 10) {
     var pattern5 = ctx.createPattern(eImg, 'repeat');
     ctx.fillStyle = pattern5;
 } else
-if (i == 12) {
+if (i == 11) {
     var pattern6 = ctx.createPattern(nImg, 'repeat');
     ctx.fillStyle = pattern6;
 } else
-if (i == 13) {
+if (i == 12) {
     var pattern7 = ctx.createPattern(kImg, 'repeat');
     ctx.fillStyle = pattern7;
 } else
-if (i == 14) {
+if (i == 13) {
     var pattern8 = ctx.createPattern(iImg, 'repeat');
     ctx.fillStyle = pattern8;
 } else {
