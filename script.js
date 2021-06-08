@@ -185,7 +185,7 @@ function pasword() {
   snake.unshift(newHead);
 }
 
-let game = setInterval(drawGame, 170);
+let game = setInterval(drawGame, 150);
 
 
 //timer
