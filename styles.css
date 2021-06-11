@@ -109,6 +109,7 @@ p{
       width: 55%;
       top: 2%;
     max-width: 800px;
+    z-index: 10;
 
 }
 
