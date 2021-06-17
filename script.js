@@ -201,6 +201,7 @@ let game = setInterval(drawGame, 200);
 //pasword
   var truePasword1 = "STARENKI";
   var truePasword2 = "Starenki";
+  var truePasword3 = "starenki";
   function checkPassword()
   {
       if(document.getElementById("pasword-field").value == truePasword1)
@@ -210,6 +211,11 @@ let game = setInterval(drawGame, 200);
       }
       else
       if(document.getElementById("pasword-field").value == truePasword2)
+      {
+        alert('Перкрасно! Ваш рахунок: + ' + 20);
+        window.location.href="https://danylogera.github.io/game-3ua/";
+      }else
+      if(document.getElementById("pasword-field").value == truePasword3)
       {
         alert('Перкрасно! Ваш рахунок: + ' + 20);
         window.location.href="https://danylogera.github.io/game-3ua/";
